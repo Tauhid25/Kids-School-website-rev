@@ -157,3 +157,118 @@ main {
     padding-top: 20px;
 }
 
+main {
+    background-image: url('../assets/bg.png');
+}
+
+.curriculum-section {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.curriculum-section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding: 70px 0px 80px;
+}
+
+.curriculum-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.curriculum-card {
+    max-width: 90%;
+    height: 400px;
+    padding: 40px 8px;
+    border-radius: 18px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.curriculumn-card-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 20px 0px;
+}
+
+.curriculum-card-description {
+    color: #808080;
+    padding: 8px 20px 30px;
+    line-height: 26px;
+}
+
+#curriculum-card1 {
+    background: linear-gradient(#def5ff, #ffffff, #ffffff);
+    border: 1px solid #e2f2f8;
+    box-shadow: 1px 1px #e2f2f8;
+}
+
+#curriculum-card2 {
+    background: linear-gradient(#fbf1e7, #ffffff, #ffffff);
+    border: 1px solid #fbf1e7;
+    box-shadow: 1px 1px #fbf1e7;
+}
+
+#curriculum-card3 {
+    background: linear-gradient(#f7e2f7, #ffffff, #ffffff);
+    border: 1px solid #f7e2f7;
+    box-shadow: 1px 1px #f7e2f7;
+}
+
+.read-more1 {
+    text-decoration: none;
+    color: rgba(100, 200, 255, 1);
+    font-weight: 700;
+    font-size: 0.98rem;
+    padding-top: 20px;
+}
+
+.read-more2 {
+    text-decoration: none;
+    color: rgba(240, 170, 0, 1);
+    font-weight: 700;
+    font-size: 0.98rem;
+}
+
+.read-more3 {
+    text-decoration: none;
+    color: rgba(135, 0, 255, 1);
+    font-weight: 700;
+    font-size: 0.98rem;
+}
+
+/* Previous Next button */
+
+.button-pn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+
+}
+
+.btn-pn {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(254, 163, 1, 1);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-pn:hover {
+    background-color: #0056b3;
+    /* Darker shade on hover */
+}
+
