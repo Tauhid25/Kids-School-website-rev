@@ -1,0 +1,159 @@
+/* Google font  */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-regular {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* for navbar section */
+
+header,
+main {
+    background-color: #f7f7f7;
+}
+
+
+.navbar-section {
+    max-width: 80%;
+    margin: auto;
+    padding: 20px 0px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu-bar {
+    display: none;
+}
+
+.nav-line {
+    border-bottom: 2px solid rgba(254, 163, 1, 1);
+    width: 100%;
+    display: none;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.brand-logo {
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+}
+
+#header-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.nav-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.nav-items {
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.home {
+    color: #FEA301;
+}
+
+.about {
+    color: #01ACFD;
+}
+
+.facilities {
+    color: #05D4DF;
+}
+
+.admission {
+    color: #5D58EF;
+}
+
+.contact-btn {
+    background-color: rgba(254, 163, 1, 1);
+    color: white;
+    padding: 14px 50px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Banner section */
+
+.scrolling-text {
+    width: 80%;
+    direction: left;
+    height: 30px;
+    margin: 0 auto;
+    display: block;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #01ACFD;
+}
+
+.banner-section {
+    max-width: 80%;
+    margin: auto;
+    background-color: rgba(247, 247, 247, 1);
+    justify-content: space-between;
+    align-items: normal;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 3.25rem;
+    padding-top: 122px;
+}
+
+#Empowering {
+    color: #FEA301;
+}
+
+#towards {
+    color: #01ACFD;
+}
+
+.banner-description {
+    font-weight: 500;
+    font-size: 1.25rem;
+    padding: 20px 40px 20px 0px;
+
+}
+
+
+.enroll-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 47px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: 12px;
+    border: none;
+}
+.banner-btn {
+    padding-top: 20px;
+}
+
