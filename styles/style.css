@@ -470,3 +470,320 @@ footer {
     display: flex;
     column-gap: 12px;
 }
+
+@media only screen and (max-width: 576px) {
+
+    .navbar-section {
+        max-width: 90%;
+        margin: auto;
+        padding: 14px 0px 10px;
+        justify-content: space-between;
+        align-items: center;
+        /* flex-direction: column; */
+    }
+
+    .nav-title,
+    .nav-item,
+    .contact-btn {
+        display: none;
+    }
+
+    #menu-bar {
+        display: block;
+
+    }
+
+    .nav-line {
+        display: block;
+    }
+
+    .brand-logo {
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 10px;
+    }
+
+    #header-logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .nav-title {
+        font-size: 1.75rem;
+        font-weight: 700;
+    }
+
+    .nav-items {
+        justify-content: center;
+        text-align: center;
+    }
+
+    /* Banner section */
+
+    .scrolling-text {
+        padding-top: 10px;
+    }
+
+    .banner-section {
+        max-width: 90%;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column-reverse;
+
+    }
+
+    .banner-title {
+        font-weight: 700;
+        font-size: 2.25rem;
+        padding-top: 40px;
+        text-align: center;
+    }
+
+
+    .banner-description {
+        font-weight: 500;
+        font-size: 1rem;
+        padding: 20px 10px;
+        text-align: center;
+
+    }
+
+    .break {
+        display: block;
+    }
+
+    .banner-btn {
+        text-align: center;
+    }
+
+    .enroll-btn {
+        background-color: black;
+        color: white;
+        padding: 12px 30px;
+        font-size: 1rem;
+        font-weight: 700;
+        border-radius: 8px;
+        border: none;
+    }
+
+    /* Curriculumn section */
+
+
+    .curriculum-section {
+        max-width: 90%;
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+
+    .curriculum-section-title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 1.75rem;
+        padding: 70px 0px 30px;
+    }
+
+    .curriculum-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+
+    }
+
+    .curriculum-card {
+        max-width: 90%;
+        height: 410px;
+        padding: 20px 110px;
+        border-radius: 10px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .curriculumn-card-title {
+        font-weight: 700;
+        font-size: 1rem;
+        padding: 10px 0px;
+    }
+
+    .curriculum-card-description {
+        color: #808080;
+        padding-bottom: 20px;
+        line-height: 30px;
+    }
+
+    .button-pn {
+        display: none;
+    }
+
+    /* story section */
+
+    .story-section {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 50px 0px 20px;
+    }
+
+    .story-main-title {
+        font-weight: 700;
+        font-size: 2rem;
+        text-align: center;
+        padding-bottom: 30px;
+
+    }
+
+    .story-card-container {
+        max-width: 90%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0px 10px;
+        gap: 10px;
+
+    }
+
+    .story-card-big {
+        display: none;
+    }
+
+    .story-card-small {
+        max-width: 90%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+    }
+
+    #hide-card3,
+    #hide-card4 {
+        display: block;
+    }
+
+    .story-card2 {
+        border-radius: 12px;
+        background-color: white;
+        position: relative;
+    }
+
+    .story-card2 img {
+        width: 250px;
+        border-radius: 12px 12px 0px 0px;
+    }
+
+    .card-description {
+        font-weight: 500;
+        font-size: 0.98rem;
+        color: rgba(128, 128, 128, 1);
+    }
+
+    .story-card-title2 {
+        font-size: 0.8rem;
+        font-weight: 700;
+        padding: 40px 40px;
+    }
+
+    .button2 {
+        position: absolute;
+        left: 40px;
+        bottom: 98px;
+    }
+
+    .story-btn {
+        background-color: #95B226;
+        font-size: 0.7rem;
+        padding: 10px 16px;
+        border-radius: 47px;
+        margin-top: -20px;
+        color: white;
+        border: none;
+    }
+
+    .navy-color {
+        background-color: #5D58F0;
+    }
+
+    .btn-view {
+        background-color: black;
+        color: white;
+        padding: 12px 56px;
+        font-size: 1.25rem;
+        font-weight: 700;
+        border-radius: 12px;
+        border: none;
+
+    }
+
+    .view-all {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 80px 0px 30px;
+    }
+
+    .footer-container {
+        max-width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+        padding: 80px 0px 60px;
+    }
+
+    .footer-title {
+        color: white;
+        font-weight: 700;
+        font-size: 2.5rem;
+    }
+
+    .logo-title {
+        column-gap: 14px;
+        padding-bottom: 18px;
+    }
+
+    .footer-description {
+        font-weight: 400;
+        font-size: 1.15rem;
+        color: white;
+        padding-bottom: 40px;
+    }
+
+    .ft-items {
+        list-style: none;
+        flex-direction: column;
+        gap: 20px;
+
+
+    }
+
+    #ab-school {
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    .ft-link {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1.25rem;
+    }
+
+    .touch {
+        color: white;
+        font-weight: 700;
+        font-size: 1.5rem;
+        padding: 30px 0px;
+
+    }
+
+    .social-icon {
+        display: flex;
+        column-gap: 8px;
+    }
+
+}
